@@ -1,5 +1,6 @@
 {
-  "users": [{
+  "users": [
+    {
       "id": "11",
       "email": "cong1@yopmail.com",
       "firstName": "cong",
@@ -2928,7 +2929,8 @@
     "createdAt": "2022-10-07T03:56:02.043Z",
     "updatedAt": "2022-12-22T04:11:39.787Z",
     "deletedAt": null,
-    "galleryItems": [{
+    "galleryItems": [
+      {
         "id": "17",
         "photo": "https://rmit-storage.s3.us-west-2.amazonaws.com/1665129316_IMG_0006.HEIC1665129316330",
         "caption": "This flower garden iz da best",
@@ -3001,7 +3003,8 @@
         "updatedAt": "2022-10-30T08:13:04.327Z"
       }
     ],
-    "products": [{
+    "products": [
+      {
         "id": "102",
         "name": "Sdklasjkldhfjkahsdfjkhasjkfhkfkashjdfjkhasdkfjasksdfasdf",
         "oldPrice": "1",
@@ -3305,7 +3308,8 @@
     "reviews": [],
     "fakeReviews": []
   },
-  "products": [{
+  "products": [
+    {
       "id": "57",
       "name": "regression",
       "photo": "https://rmit-storage.s3.us-west-2.amazonaws.com/1671161143_background.png",
@@ -3596,7 +3600,8 @@
       "updatedAt": "2023-01-18T04:21:12.964Z"
     }
   ],
-  "banner": [{
+  "banner": [
+    {
       "id": "29",
       "content": "https://rmit-storage.s3.us-west-2.amazonaws.com/1671173012_mui-ten.png",
       "index": null,
@@ -3629,7 +3634,8 @@
       "updatedAt": "2022-12-16T06:40:26.572Z"
     }
   ],
-  "shop": [{
+  "shop": [
+    {
       "id": "33",
       "email": "cong01@yopmail.com",
       "firstName": "Red",
@@ -3657,7 +3663,8 @@
       "createdAt": "2022-11-01T04:36:33.874Z",
       "updatedAt": "2023-03-17T08:56:19.620Z",
       "deletedAt": null,
-      "categories": [{
+      "categories": [
+        {
           "name": "Ptest3",
           "id": "39"
         },
@@ -3695,7 +3702,8 @@
       "createdAt": "2022-10-31T07:46:09.009Z",
       "updatedAt": "2022-12-26T07:51:37.779Z",
       "deletedAt": null,
-      "categories": [{
+      "categories": [
+        {
           "name": "Ptest3",
           "id": "39"
         },
@@ -3737,7 +3745,8 @@
       "createdAt": "2022-11-15T02:49:59.462Z",
       "updatedAt": "2022-12-26T07:51:37.779Z",
       "deletedAt": null,
-      "categories": [{
+      "categories": [
+        {
           "name": "Ptest2",
           "id": "40"
         },
@@ -3783,7 +3792,8 @@
       "createdAt": "2022-10-09T05:43:55.829Z",
       "updatedAt": "2022-12-26T07:51:37.779Z",
       "deletedAt": null,
-      "categories": [{
+      "categories": [
+        {
           "name": "Ptest5",
           "id": "42"
         },
@@ -3829,7 +3839,8 @@
       "createdAt": "2022-12-15T02:33:19.508Z",
       "updatedAt": "2022-12-26T07:51:37.779Z",
       "deletedAt": null,
-      "categories": [{
+      "categories": [
+        {
           "name": "12",
           "id": "53"
         },
@@ -3879,13 +3890,17 @@
       "createdAt": "2022-12-09T08:22:55.095Z",
       "updatedAt": "2022-12-26T07:51:37.779Z",
       "deletedAt": null,
-      "categories": [{
-        "name": "Gà Thịt Gà",
-        "id": "23"
-      }]
+      "categories": [
+        {
+          "name": "Gà Thịt Gà",
+          "id": "23"
+        }
+      ]
     }
   ],
-  "shop1": {
-    "name": "typicode"
+  
+  "dashboard": {
+    "title": "Sales Overview",
+    "subTitle": ""
   }
 }
