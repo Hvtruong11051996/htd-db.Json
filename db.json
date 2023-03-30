@@ -3912,6 +3912,22 @@
       "Watches": 500,
       "Bags": 100,
       "Shoes": 200
+    },
+    "charts": {
+      "labels": ["January", "February", "March", "April", "May", "June", "July"],
+      "datasets": [{
+          "label": "Dataset 1",
+          "data": [100, 200, 300, 400, 500],
+          "borderColor": "rgb(255, 99, 132)",
+          "backgroundColor": "rgba(255, 99, 132, 0.5)"
+        },
+        {
+          "label": "Dataset 2",
+          "data": [300, 100, 200, 400, 700],
+          "borderColor": "rgb(53, 162, 235)",
+          "backgroundColor": "rgba(53, 162, 235, 0.5)"
+        }
+      ]
     }
   }
 }
