@@ -9055,65 +9055,353 @@
     "title": "Sales Overview",
     "subTitle": "View your current sales & summary",
     "analytics": [{
+        "title": "Revenue",
         "revenueId": 1,
-        "total": "$21,827.13",
-        "des": "vs. 3 months prior to 30 Dec",
+        "total": "21.827.13",
+        "des": "vs. 1 months prior to 30 Dec",
         "growth": "11.4%"
       },
       {
+        "title": "Orders",
         "ordersId": 1,
-        "total": "$1,758",
-        "des": "vs. 3 months prior to 30 Dec",
+        "total": "1.758",
+        "des": "vs. 1 months prior to 30 Dec",
         "growth": "-3.2%"
       },
       {
+        "title": "Purchases",
         "purchasesId": 1,
-        "total": "$7,249.31",
-        "des": "vs. 3 months prior to 30 Dec",
+        "total": "7.249.31",
+        "des": "vs. 1 months prior to 30 Dec",
         "growth": "5.7%"
+      },
+      {
+        "title": "Total orders",
+        "purchasesId": 1,
+        "total": "7.249.31",
+        "des": "vs. 1 days prior to 30 Month",
+        "growth": "10.7%"
       }
     ],
-    "categories": {
-      "Devices": 200,
-      "Watches": 500,
-      "Bags": 100,
-      "Shoes": 200
-    },
-    "charts": {
-      "labels": [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July"
-      ],
-      "datasets": [{
-          "label": "Dataset 1",
-          "data": [
-            100,
-            200,
-            300,
-            400,
-            500
-          ],
-          "borderColor": "rgb(255, 99, 132)",
-          "backgroundColor": "rgba(255, 99, 132, 0.5)"
+    "returningCustomerRate": {
+      "title": "Returning customer rate",
+      "sub": "Rate of customers returning to your shop over time",
+      "data": [{
+          "month": "Feb",
+          "fourthTime": 10,
+          "thirdTime": 10,
+          "secondTime": 1
         },
         {
-          "label": "Dataset 2",
-          "data": [
-            300,
-            100,
-            200,
-            400,
-            700
-          ],
-          "borderColor": "rgb(53, 162, 235)",
-          "backgroundColor": "rgba(53, 162, 235, 0.5)"
+          "month": "Mar",
+          "fourthTime": 1,
+          "thirdTime": 4,
+          "secondTime": 1
+        },
+        {
+          "month": "Apr",
+          "fourthTime": 3.5,
+          "thirdTime": 5,
+          "secondTime": 1
+        },
+        {
+          "month": "May",
+          "fourthTime": 5,
+          "thirdTime": 5,
+          "secondTime": 1
+        },
+        {
+          "month": "Jun",
+          "fourthTime": 4.9,
+          "thirdTime": 4.9,
+          "secondTime": 1
+        },
+        {
+          "month": "Jul",
+          "fourthTime": 6,
+          "thirdTime": 35,
+          "secondTime": 1
+        },
+        {
+          "month": "Aug",
+          "fourthTime": 7,
+          "thirdTime": 7,
+          "secondTime": 1
+        },
+        {
+          "month": "Sep",
+          "fourthTime": 9,
+          "thirdTime": 1,
+          "secondTime": 1
+        },
+        {
+          "month": "Oct",
+          "fourthTime": 13,
+          "thirdTime": 20,
+          "secondTime": 1
+        },
+        {
+          "month": "Nov",
+          "fourthTime": 13,
+          "thirdTime": 20,
+          "secondTime": 1
         }
       ]
+    },
+    "projectionAndActual": {
+      "title": "Projection vs actual",
+      "sub": "Actual earnings vs projected earnings",
+      "data": [{
+          "name": "London",
+          "month": "Jan.",
+          "value": 18.9
+        },
+        {
+          "name": "London",
+          "month": "Feb.",
+          "value": 28.8
+        },
+        {
+          "name": "London",
+          "month": "Mar.",
+          "value": 39.3
+        },
+        {
+          "name": "London",
+          "month": "Apr.",
+          "value": 81.4
+        },
+        {
+          "name": "London",
+          "month": "May",
+          "value": 47
+        },
+        {
+          "name": "London",
+          "month": "Jun.",
+          "value": 20.3
+        },
+        {
+          "name": "London",
+          "month": "Jul.",
+          "value": 24
+        },
+        {
+          "name": "London",
+          "month": "Aug.",
+          "value": 35.6
+        },
+        {
+          "name": "Berlin",
+          "month": "Jan.",
+          "value": 12.4
+        },
+        {
+          "name": "Berlin",
+          "month": "Feb.",
+          "value": 23.2
+        },
+        {
+          "name": "Berlin",
+          "month": "Mar.",
+          "value": 34.5
+        },
+        {
+          "name": "Berlin",
+          "month": "Apr.",
+          "value": 99.7
+        },
+        {
+          "name": "Berlin",
+          "month": "May",
+          "value": 52.6
+        },
+        {
+          "name": "Berlin",
+          "month": "Jun.",
+          "value": 35.5
+        },
+        {
+          "name": "Berlin",
+          "month": "Jul.",
+          "value": 37.4
+        },
+        {
+          "name": "Berlin",
+          "month": "Aug.",
+          "value": 42.4
+        }
+      ]
+    },
+    "salesReport": {
+      "monthSales": {
+        "labels": [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July"
+        ],
+        "datasets": [{
+            "label": "Online Sales",
+            "data": [
+              100,
+              200,
+              300,
+              400,
+              500
+            ],
+            "borderColor": "#f5222d",
+            "backgroundColor": "#f5222d"
+          },
+          {
+            "label": "Marketing Sales",
+            "data": [
+              300,
+              100,
+              200,
+              400,
+              700
+            ],
+            "borderColor": "#7cb305",
+            "backgroundColor": "#7cb305"
+          },
+          {
+            "label": "Facebook Sales",
+            "data": [
+              200,
+              500,
+              300,
+              500,
+              700
+            ],
+            "borderColor": "rgb(53, 162, 235)",
+            "backgroundColor": "rgba(53, 162, 235, 0.5)"
+          },
+          {
+            "label": "Google Sales",
+            "data": [
+              100,
+              200,
+              100,
+              400,
+              300
+            ],
+            "borderColor": "#13c2c2",
+            "backgroundColor": "#13c2c2"
+          },
+          {
+            "label": "TikTok Sales",
+            "data": [
+              200,
+              400,
+              200,
+              500,
+              200
+            ],
+            "borderColor": "#141414",
+            "backgroundColor": "#141414"
+          },
+          {
+            "label": "Instagram Sales",
+            "data": [
+              100,
+              300,
+              200,
+              500,
+              700
+            ],
+            "borderColor": "#eb2f96",
+            "backgroundColor": "#eb2f96"
+          }
+        ]
+      },
+      "yearSales": {
+        "labels": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ],
+        "datasets": [{
+            "label": "Online Sales",
+            "data": [
+              1000,
+              2000,
+              3000,
+              4000,
+              5000
+            ],
+            "borderColor": "#f5222d",
+            "backgroundColor": "#f5222d"
+          },
+          {
+            "label": "Marketing Sales",
+            "data": [
+              3000,
+              1000,
+              2000,
+              4000,
+              7000
+            ],
+            "borderColor": "#7cb305",
+            "backgroundColor": "#7cb305"
+          },
+          {
+            "label": "Facebook Sales",
+            "data": [
+              2000,
+              5000,
+              3000,
+              5000,
+              7000
+            ],
+            "borderColor": "rgb(53, 162, 235)",
+            "backgroundColor": "rgba(53, 162, 235, 0.5)"
+          },
+          {
+            "label": "Google Sales",
+            "data": [
+              1000,
+              2000,
+              1000,
+              4000,
+              3000
+            ],
+            "borderColor": "#13c2c2",
+            "backgroundColor": "#13c2c2"
+          },
+          {
+            "label": "TikTok Sales",
+            "data": [
+              2000,
+              4000,
+              2000,
+              5000,
+              2000
+            ],
+            "borderColor": "#141414",
+            "backgroundColor": "#141414"
+          },
+          {
+            "label": "Instagram Sales",
+            "data": [
+              1000,
+              3000,
+              2000,
+              5000,
+              7000
+            ],
+            "borderColor": "#eb2f96",
+            "backgroundColor": "#eb2f96"
+          }
+        ]
+      }
     }
   }
 }
